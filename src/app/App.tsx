@@ -1,14 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
+import { BrowserRouter } from "react-router-dom";
+import { Navigator } from './router'
 import "./index.css";
 
 const App = () => (
-  <div className="container">
-    <div>Name: own-website</div>
-    <div>Framework: react</div>
-    <div>Language: TypeScript</div>
-    <div>CSS: Empty CSS</div>
-  </div>
+  
+  <BrowserRouter>
+    <Navigator />
+  </BrowserRouter>
 );
 ReactDOM.render(<App />, document.getElementById("app"));
