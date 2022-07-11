@@ -5,9 +5,10 @@ import { Navigator } from './router'
 import "./index.css";
 
 const App = () => (
-  
-  <BrowserRouter>
-    <Navigator />
-  </BrowserRouter>
+  <>
+    <BrowserRouter>
+        <Navigator />
+    </BrowserRouter>
+    </>
 );
 ReactDOM.render(<App />, document.getElementById("app"));

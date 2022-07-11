@@ -1,5 +1,5 @@
 import React from 'react';
 
-export function Profile (){
+export const Profile = () => {
     return (<h1>Profile</h1>)
 }
