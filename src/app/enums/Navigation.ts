@@ -4,11 +4,18 @@ interface INavigationInformation {
     projects:INavigationElement;
     profile:INavigationElement;
     undefined:INavigationElement;
+    linkedIn:ISocialMedia;
+    gitHub:ISocialMedia;
 }
 
 interface INavigationElement {
     path:string;
     label:string;
+}
+
+interface ISocialMedia {
+    icon:string;
+    link:string;
 }
 
 const navigationInformation:INavigationInformation = {
@@ -31,6 +38,14 @@ const navigationInformation:INavigationInformation = {
     undefined:{
         path:'*',
         label:'none'
+    },
+    linkedIn:{
+        icon:'nothing',
+        link:'nothing'
+    },
+    gitHub:{
+        icon:'gitHub',
+        link:' nigin'
     }
 };
 

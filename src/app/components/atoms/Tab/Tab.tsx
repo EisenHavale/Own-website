@@ -6,7 +6,7 @@ import TabProps from '../../../interfaces/atoms-Interfaces';
 const Tab = (props: TabProps)=> {
 
     return (
-        <MTab label={props.title} />
+        <MTab label={props.title}/>
     )
 }
 
