@@ -3,10 +3,10 @@ import { Tab as MTab } from '@mui/material'
 import TabProps from '../../../interfaces/atoms-Interfaces';
 
 
-function Tab (props: TabProps) {
+const Tab = (props: TabProps)=> {
 
     return (
-        <MTab label={props.title} value={props.value} />
+        <MTab label={props.title}/>
     )
 }
 

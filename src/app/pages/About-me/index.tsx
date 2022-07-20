@@ -1,5 +1,5 @@
 import React from 'react';
 
-export function AboutMe (){
+export const AboutMe = () =>{
     return (<h1>About Me</h1>)
 }
